@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:layout_width="300sp"
+        android:layout_height="60sp"
+        android:id="@+id/etn1"
+        android:layout_marginTop="50sp"
+        android:layout_marginLeft="50sp"
+        android:hint="Enter No1 : "
+        android:textSize="25sp" />
+
+    <EditText
+        android:layout_width="300sp"
+        android:layout_height="60sp"
+        android:id="@+id/etn2"
+        android:layout_marginTop="150sp"
+        android:layout_marginLeft="50sp"
+        android:hint="Enter No2 : "
+        android:textSize="25sp" />
+
+    <Button
+        android:layout_width="120sp"
+        android:layout_height="100sp"
+        android:id="@+id/btplus"
+        android:layout_marginLeft="60sp"
+        android:layout_marginTop="220sp"
+        android:text="+"
+        android:textSize="45sp" />
+
+    <Button
+        android:layout_width="120sp"
+        android:layout_height="100sp"
+        android:id="@+id/btmin"
+        android:layout_marginLeft="220sp"
+        android:layout_marginTop="220sp"
+        android:text="-"
+        android:textSize="45sp" />
+
+    <Button
+        android:layout_width="120sp"
+        android:layout_height="100sp"
+        android:id="@+id/btmul"
+        android:layout_marginLeft="60sp"
+        android:layout_marginTop="320sp"
+        android:text="*"
+        android:textSize="45sp" />
+
+    <Button
+        android:layout_width="120sp"
+        android:layout_height="100sp"
+        android:id="@+id/btdiv"
+        android:layout_marginLeft="220sp"
+        android:layout_marginTop="320sp"
+        android:text="/"
+        android:textSize="45sp" />
+
+</RelativeLayout>
